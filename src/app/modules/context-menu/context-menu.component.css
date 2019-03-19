@@ -2,11 +2,15 @@
   background: #eee;
   width: 150px;
 }
-ul>li:hover{
-  background-color:#abc
+ul > li:hover {
+  background-color: #abc;
 }
-ul, ul>li {
-  list-style: none;
+ul {
   margin: 0;
   padding: 0;
+}
+ul > li {
+  list-style: none;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
 }
